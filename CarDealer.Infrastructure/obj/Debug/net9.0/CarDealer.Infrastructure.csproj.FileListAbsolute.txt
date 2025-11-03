@@ -1,0 +1,17 @@
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Infrastructure.deps.json
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Infrastructure.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Infrastructure.pdb
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Core.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Core.pdb
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.csproj.AssemblyReference.cache
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.AssemblyInfoInputs.cache
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.AssemblyInfo.cs
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.csproj.CoreCompileInputs.cache
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDeale.47332022.Up2Date
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/refint/CarDealer.Infrastructure.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.pdb
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/ref/CarDealer.Infrastructure.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/bin/Debug/net9.0/CarDealer.Infrastructure.runtimeconfig.json
+/home/kolya/C#/CarDealerSolution/CarDealer.Infrastructure/obj/Debug/net9.0/CarDealer.Infrastructure.genruntimeconfig.cache

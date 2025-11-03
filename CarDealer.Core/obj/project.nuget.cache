@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ozN8qtKIH4Y=",
+  "success": true,
+  "projectFilePath": "/home/kolya/C#/CarDealerSolution/CarDealer.Core/CarDealer.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/kolya/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

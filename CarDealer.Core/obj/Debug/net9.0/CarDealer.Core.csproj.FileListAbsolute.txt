@@ -1,0 +1,11 @@
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/bin/Debug/net9.0/CarDealer.Core.deps.json
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/bin/Debug/net9.0/CarDealer.Core.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/bin/Debug/net9.0/CarDealer.Core.pdb
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.AssemblyInfoInputs.cache
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.AssemblyInfo.cs
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.csproj.CoreCompileInputs.cache
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/refint/CarDealer.Core.dll
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/CarDealer.Core.pdb
+/home/kolya/C#/CarDealerSolution/CarDealer.Core/obj/Debug/net9.0/ref/CarDealer.Core.dll
