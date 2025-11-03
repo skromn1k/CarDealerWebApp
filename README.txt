@@ -72,4 +72,4 @@ Notes:
 
 Author:
 -------
-Kolya (skromn1k)
+Nicolae Ciurea (skromn1k)
