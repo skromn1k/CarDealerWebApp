@@ -1,29 +1,75 @@
-# Core — бизнес-логика, модели, интерфейсы
-dotnet new classlib -n CarDealer.Core
+CarDealer Web Application
+========================
 
-# Infrastructure — доступ к БД, репозитории
-dotnet new classlib -n CarDealer.Infrastructure
+Project Description:
+-------------------
+This is a backend web application for a Car Dealer. It allows:
 
-# Web — Razor Pages + API
-dotnet new webapp -n CarDealer.Web
+- Admin to add new cars (simulated, no authentication)
+- Users to view all cars
+- Users to submit inquiries about cars
 
-Почему так:
+Technologies Used:
+------------------
+- C# 12
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server (localdb or full server)
 
-Core — чистые классы, DTO, интерфейсы. Никаких зависимостей на EF или ASP.NET.
+Project Structure:
+------------------
+1. CarDealer.Core       -> Contains domain models (Car, Inquiry)
+2. CarDealer.Infrastructure -> DbContext and database migrations
+3. CarDealer.Web        -> ASP.NET Core Web API project with controllers
 
-Infrastructure — здесь будет DbContext, репозитории, реализация интерфейсов Core.
+How to Run Locally:
+------------------
+1. Open the solution in Visual Studio 2022 (or later)
+2. Ensure SQL Server is running
+3. Run the following commands in terminal (inside project root):
 
-Web — пользовательский интерфейс (Razor Pages) и REST API контроллеры.
+   # Apply migrations
+   dotnet ef database update --project CarDealer.Infrastructure --startup-project CarDealer.Web
 
+   # Run the API
+   dotnet run --project CarDealer.Web
 
-Что ты должен понять и запомнить
+API Endpoints:
+--------------
+1. GET /api/Cars
+   - Get all cars
 
-Solution объединяет несколько проектов, помогает держать слои отдельно.
+2. POST /api/Cars
+   - Add a new car
+   - Body JSON example:
+     {
+       "make": "Toyota",
+       "model": "Corolla",
+       "year": 2020,
+       "price": 15000,
+       "description": "Good condition, one owner"
+     }
 
-Core — бизнес-логика, интерфейсы, DTO, без зависимости от EF или ASP.NET.
+3. GET /api/Inquiries
+   - Get all inquiries
 
-Infrastructure — реализация доступа к данным, репозитории, EF DbContext.
+4. POST /api/Inquiries
+   - Submit a new inquiry
+   - Body JSON example:
+     {
+       "carId": 1,
+       "name": "Kolya",
+       "email": "kolya@example.com",
+       "phone": "+373XXXXXXXX",
+       "message": "I want to know more about this car"
+     }
 
-Web — контроллеры, Razor Pages, DI-контейнер.
+Notes:
+------
+- Admin login is simulated; no real authentication is implemented.
+- CreatedAt fields are automatically populated with current datetime.
+- This project is part of the Bincom Academy C# Beginner Test.
 
-Ссылки всегда сверху вниз — это фундамент SOLID и чистой архитектуры.
+Author:
+-------
+Kolya (skromn1k)
